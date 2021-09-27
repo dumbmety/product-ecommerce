@@ -11,7 +11,8 @@ export default function PromoSection() {
             </h1>
             <p className="mt-4 text-xl text-gray-500">
               This year, our new summer collection will shelter you from the
-              harsh elements of a world that doesn't care if you live or die.
+              harsh elements of a world that doesn&apos;t care if you live or
+              die.
             </p>
           </div>
           <div>
