@@ -158,27 +158,28 @@ export default function MobileMenu(props: Props) {
                 </Link>
               </div>
               <div className="flow-root">
-                <a
-                  href="#"
-                  className="-m-2 p-2 block font-medium text-gray-900"
-                >
-                  Create account
-                </a>
+                <Link href="/signup">
+                  <a className="-m-2 p-2 block font-medium text-gray-900">
+                    Create account
+                  </a>
+                </Link>
               </div>
             </div>
 
             <div className="border-t border-gray-200 py-6 px-4">
-              <a href="#" className="-m-2 p-2 flex items-center">
-                <img
-                  src="https://tailwindui.com/img/flags/flag-canada.svg"
-                  alt=""
-                  className="w-5 h-auto block flex-shrink-0"
-                />
-                <span className="ml-3 block text-base font-medium text-gray-900">
-                  CAD
-                </span>
-                <span className="sr-only">, change currency</span>
-              </a>
+              <Link href="/change-language">
+                <a className="-m-2 p-2 flex items-center">
+                  <img
+                    src="https://tailwindui.com/img/flags/flag-canada.svg"
+                    alt=""
+                    className="w-5 h-auto block flex-shrink-0"
+                  />
+                  <span className="ml-3 block text-base font-medium text-gray-900">
+                    CAD
+                  </span>
+                  <span className="sr-only">, change currency</span>
+                </a>
+              </Link>
             </div>
           </div>
         </Transition.Child>

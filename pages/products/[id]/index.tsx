@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 import { useState } from 'react'
 import { StarIcon } from '@heroicons/react/solid'
 import { RadioGroup } from '@headlessui/react'
@@ -231,12 +233,11 @@ export default function Product() {
                 <div className="mt-10">
                   <div className="flex items-center justify-between">
                     <h3 className="text-sm text-gray-900 font-medium">Size</h3>
-                    <a
-                      href="#"
-                      className="text-sm font-medium text-indigo-600 hover:text-indigo-500"
-                    >
-                      Size guide
-                    </a>
+                    <Link href="/guide">
+                      <a className="text-sm font-medium text-indigo-600 hover:text-indigo-500">
+                        Size guide
+                      </a>
+                    </Link>
                   </div>
 
                   <RadioGroup
