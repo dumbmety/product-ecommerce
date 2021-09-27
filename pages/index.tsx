@@ -2,6 +2,7 @@ import CategoryLists from '../components/CategoryPreviews'
 import Footer from '../components/Footer'
 import Navigation from '../components/Navigation'
 import ProductLists from '../components/ProductLists'
+import PromoSection from '../components/PromoSection'
 
 export default function HomePage() {
   return (
@@ -9,6 +10,7 @@ export default function HomePage() {
       <Navigation />
       <ProductLists />
       <CategoryLists />
+      <PromoSection />
       <Footer />
     </>
   )
